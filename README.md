@@ -10,6 +10,8 @@
 
 - [Steps](#steps)
 
+- [Github](#github)
+
 
 # **Overview**
 
@@ -43,3 +45,56 @@
 
 ![Alt text](docsify/666.png)
 
+# **Github**
+
+>Create a github  account and make a repository. To create a GitHub account Go to https://github.com/ Click on "Sign up" and follow the prompts to create your account then  Login github. 
+
+![Alt text](docsify/git01.png)
+
+>Create GitHub Repository
+- On GitHub, write the "Name your new repostory" then click on create a new repository button.
+
+![Alt text](docsify/repo1.png)
+
+- Choose a name for your repository. Then Write a short description about your project or documentation. Choose whether the repository should be public or private. Then click create a repository. 
+
+![Alt text](docsify/repo2.png)
+
+>create a new repository on the command line
+
+- git init
+
+![Alt text](<docsify/git init.png>)
+
+- git add README.md
+
+![Alt text](docsify/read.png)
+
+- git commit -m "first commit"
+
+![Alt text](<docsify/git commit.png>)
+
+- git branch -M master
+
+![Alt text](<docsify/branch master.png>)
+
+- git remote add origin https://github.com/ankursingh005/try.git
+
+
+- git push -u origin master
+
+![Alt text](<docsify/push master.png>)
+
+>Generate a token to be used as a password when executing the git push -u origin master command.
+- Open setting
+![Alt text](docsify/tk1.png)
+- Select Developer settings
+![Alt text](docsify/tk2.png)
+- Select Personal access token (Classic version)
+![Alt text](docsify/tk3.png)
+- Click generate new token
+![Alt text](docsify/tk4.png)
+
+>Clone the Repository
+
+![Alt text](<docsify/git clone.png>)
