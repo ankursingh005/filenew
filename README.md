@@ -54,47 +54,56 @@
 >Create GitHub Repository
 - On GitHub, write the "Name your new repostory" then click on create a new repository button.
 
-![Alt text](docsify/repo1.png)
+![Alt text](docsify/rp1.png)
+
 
 - Choose a name for your repository. Then Write a short description about your project or documentation. Choose whether the repository should be public or private. Then click create a repository. 
 
-![Alt text](docsify/repo2.png)
+![Alt text](docsify/rp2.png)
 
 >create a new repository on the command line
 
-- git init
+- **git init** :- "git init" is like setting up a magic box that remembers all the changes you make to your files, so you can easily go back and see what you did later.
 
 ![Alt text](<docsify/git init.png>)
 
-- git add README.md
+- **git add README.md** :-  Command is used to tell Git that you want to include the changes you've made to the README.md file
 
 ![Alt text](docsify/read.png)
 
-- git commit -m "first commit"
+- **git commit -m "first commit"** :-  Is like saving your work and adding a quick note to remember what you did. It's like taking a snapshot and writing a caption for it.
 
 ![Alt text](<docsify/git commit.png>)
 
-- git branch -M master
+- **git branch -M master** :- (git branch) This tells Git you want to work with branches, which are different versions of your project.(M) This is a flag that means you're renaming or moving a branch.(master) This is the name of the branch you're renaming. In Git, "master" is often the default starting point.
 
 ![Alt text](<docsify/branch master.png>)
 
-- git remote add origin https://github.com/ankursingh005/try.git
+- **git remote add origin https://github.com/ankursingh005/try.git** :- This command is saying, "Git, I want to connect my local project to a place on GitHub called 'origin' using this web address.
 
 
-- git push -u origin master
+- **git push -u origin master** :- Is like sending your local work to your online project's home on GitHub. It's a way to share your changes and keep everything in sync. The -u part helps set up a connection for next time.
 
 ![Alt text](<docsify/push master.png>)
 
 >Generate a token to be used as a password when executing the git push -u origin master command.
 - Open setting
-![Alt text](docsify/tk1.png)
+
+![Alt text](docsify/token1.png)
+
 - Select Developer settings
-![Alt text](docsify/tk2.png)
+
+![Alt text](docsify/token2.png)
+
 - Select Personal access token (Classic version)
-![Alt text](docsify/tk3.png)
+
+![Alt text](docsify/token3.png)
+
 - Click generate new token
-![Alt text](docsify/tk4.png)
+
+![Alt text](docsify/token4.png)
 
 >Clone the Repository
+- Is like making a copy of a project from the internet so you can work on it on your computer.
 
 ![Alt text](<docsify/git clone.png>)
